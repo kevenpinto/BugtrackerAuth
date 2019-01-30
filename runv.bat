@@ -1,0 +1,1 @@
+techtest\Scripts\activate.bat
