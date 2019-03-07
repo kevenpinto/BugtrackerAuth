@@ -2,9 +2,9 @@ import auth0 from "auth0-js";
 const m = require('mithril')
 
 const myauth0  = new auth0.WebAuth({
-    domain: 'bugtrackerkev.eu.auth0.com',
-    clientID: 'HmiIOhgX43s12dqxioorpmQ6OxKpg10N',
-    redirectUri: 'http://localhost:8640/#!/issues',
+    // domain: 'bugtrackerkev.eu.auth0.com',
+    // clientID: 'HmiIOhgX43s12dqxioorpmQ6OxKpg10N',
+    // redirectUri: 'http://localhost:8640/#!/issues',
     responseType: 'token id_token',
     scope: 'openid profile email'
     })
